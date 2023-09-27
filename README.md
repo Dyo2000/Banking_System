@@ -1,2 +1,3 @@
 # Banking_System
- Creating a banking system
+ Hello, this is my attempt to make a banking system.
+ I am doing this as a solo project for experience.
