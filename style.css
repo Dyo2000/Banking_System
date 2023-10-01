@@ -53,7 +53,7 @@ header{
     height: 3px;
     background: black;
     border-radius: 5px;
-    transform-origin: left;
+    transform-origin: middle;
     transform: scaleX(0);
     transition: transform .3s;
 }
@@ -273,26 +273,33 @@ header{
 }
 .contact .phone_icon{
     position: absolute;
-    bottom: 90px;
+    bottom: 65px;
     right: 80px;
     font-size: 1.4em;
 }
 .contact .phone_number{
     position: relative;
-    top: 30px;
+    top: 55px;
     font-size: 1.4em;
 }
 
 .contact .email_icon{
     position: absolute;
-    bottom: 35px;
+    bottom: 20px;
     right: 40px;
     font-size: 1.4em; 
 }
 
 .contact .email_address{
     position: absolute;
-    bottom: 40px;
+    bottom: 25px;
     right: 80px;
+    font-size: 1.4em;
+}
+
+.contact .business_hours{
+    position: absolute;
+    bottom: 110px;
+    right: 60px;
     font-size: 1.4em;
 }
