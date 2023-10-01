@@ -37,10 +37,10 @@ header{
 
 .navigation a{
     position: relative;
-    font-size: 1.1em;
+    font-size: 1.4em;
     color: black;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
     margin-left: 25px;
 }
 
@@ -70,9 +70,9 @@ header{
     outline: none;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 1.1em;
+    font-size: 1.4em;
     color: black;
-    font-weight: 500;
+    font-weight: 700;
     margin-left: 25px;
     transition: .3s;
 }
@@ -251,4 +251,48 @@ header{
 
 .login-register p a:hover{
     text-decoration: underline;
+}
+
+.contact{
+    position: fixed;
+    top: 50;
+    left: 50;
+    width: 40%;
+    height: 30%;
+    background: lavender;
+    padding:20px 100px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.contact_header{
+    font-size: 3.5em;
+    color: black;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.contact .phone_icon{
+    position: absolute;
+    bottom: 90px;
+    right: 80px;
+    font-size: 1.4em;
+}
+.contact .phone_number{
+    position: relative;
+    top: 30px;
+    font-size: 1.4em;
+}
+
+.contact .email_icon{
+    position: absolute;
+    bottom: 35px;
+    right: 40px;
+    font-size: 1.4em; 
+}
+
+.contact .email_address{
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
+    font-size: 1.4em;
 }
