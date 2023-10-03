@@ -5,18 +5,15 @@
     <title>This is a test for my banking website</title>
 </head>
 
-<script>
-    function displayName(){
-        var myname = "Dylan";
-        document.write(myname);
-    }
-</script>
-
 <body>
 
     <header class="account_custom">
-        <h2 class="logo">Welcome </h2>
-        <script>displayName();</script>
+        <h2 class="logo">Welcome: </h2>
+        <h2 class="user_name">
+            <?php
+                echo $_COOKIE['fname'];
+            ?>
+        </h2>
         <a href="#">Dashboard</a>
         <a href="#">Transactions</a>
         <a href="#">Account Settings</a>
